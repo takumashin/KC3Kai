@@ -6,6 +6,11 @@ body {
 	width:800px;
 	margin:0px auto;
 }
+#error {
+	width:800px;
+	margin:10px 0px 20px 0px;
+	display:none;
+}
 #body {
 	width:800px;
 	margin:10px 0px 10px 0px;
@@ -30,6 +35,9 @@ body {
 	width:100px;
 	margin:0px 0px 10px 0px;
 }
+#menu .submenu.dev-only {
+    display:none;
+}
 #menu .submenu .title {
 	width:100px;
 	height:18px;
@@ -46,6 +54,7 @@ body {
 	padding:0px;
 	font-size:12px;
 	font-weight:bold;
+	white-space:nowrap;
 }
 #menu .submenu ul.menulist li {
 	width:100px;
@@ -80,7 +89,7 @@ body {
 -------------------------------*/
 #content {
 	width:700px;
-	min-height:1030px;
+	min-height:1300px;
 	float:left;
 	background:#fff;
 	border-radius:10px;
